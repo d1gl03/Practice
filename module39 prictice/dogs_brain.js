@@ -24,6 +24,7 @@ function displayDogs (url) {
     dogImage.src = url;
     dogImage.style.width = '100%';
     dogImage.style.height = '100%';
+    dogImage.style.borderRadius = '5px'
     dogsDiv.appendChild(dogImage)
 }
 
