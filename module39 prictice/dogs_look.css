@@ -1,0 +1,27 @@
+h1 {
+    margin: 0 auto;
+    width: 300px
+}
+button {
+    margin: 0 auto;
+    display: block;
+    width: 160px;
+    background-color: lightslategray;
+    color: aliceblue;
+    border: 1px lightslategray solid;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+.dogs_container {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(5, 200px);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 22%;
+    grid-row-gap: 20px
+}
